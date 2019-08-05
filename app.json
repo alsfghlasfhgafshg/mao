@@ -5,7 +5,9 @@
     "pages/logs/logs",
     "pages/activity/activity",
     "pages/me/me",
-    "pages/zone/zone"
+    "pages/zone/zone",
+    "pages/resume/resume",
+    "pages/about/about"
   ],
   "usingComponents": {
     "van-button": "/component/vant/button/index",
@@ -16,7 +18,8 @@
     "van-popup": "/component/vant/popup/index",
     "van-loading": "/component/vant/loading/index",
     "van-tab": "/component/vant/tab/index",
-    "van-tabs": "/component/vant/tabs/index"
+    "van-tabs": "/component/vant/tabs/index",
+    "van-card": "/component/vant/card/index"
   },
   "window": {
     "backgroundTextStyle": "light",

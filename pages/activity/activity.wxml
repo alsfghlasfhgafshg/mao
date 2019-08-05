@@ -1,2 +1,11 @@
-<!--pages/activity/activity.wxml-->
-<text>pages/activity/activity.wxml</text>
+<van-tabs active="{{ tabactive }}" bind:change="onTabChange">
+  <van-tab title="活动">
+    <include src="activitylist.wxml" />
+  </van-tab>
+
+ 
+  <van-tab title="资讯">
+    <include src="newslist.wxml" />
+  </van-tab>
+
+</van-tabs>

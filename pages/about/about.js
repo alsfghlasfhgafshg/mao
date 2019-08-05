@@ -1,21 +1,17 @@
-// pages/zone/zone.js
+// pages/about/about.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    tabactive: 0, 
+
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
-  },
-
-  onTabChange: function (event) {
 
   },
 

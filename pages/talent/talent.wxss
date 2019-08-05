@@ -1,1 +1,17 @@
 /* pages/talent/talent.wxss */
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+van-col{
+  text-align: center
+}
+.left-blue{
+  border-left: 20rpx solid blue;
+  padding-left: 10rpx;
+  margin-bottom: 10rpx
+}

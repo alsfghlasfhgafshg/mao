@@ -1,2 +1,14 @@
-<!--pages/zone/zone.wxml-->
-<text>pages/zone/zone.wxml</text>
+<van-tabs active="{{ tabactive }}" bind:change="onTabChange">
+  <van-tab title="悬赏">
+    <include src="xuanshang.wxml" />
+  </van-tab>
+
+  <van-tab title="销售">
+    <include src="xiaoshou.wxml" />
+  </van-tab>
+
+  <van-tab title="行政">
+    <include src="xingzheng.wxml" />
+  </van-tab>
+
+</van-tabs>

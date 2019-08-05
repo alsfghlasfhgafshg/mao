@@ -1,0 +1,10 @@
+<text>activitylist</text>
+
+
+<view wx:for="{{activitylist}}">
+
+  <van-card desc="{{item.subtitle}}" title="{{item.title}}" thumb="{{item.thumburl}}" lazy-load='ture' thumb-link="/pages/logs/logs" catchtap="cardtap" />
+
+  <view style="height:20rpx"></view>
+
+</view>

@@ -1,2 +1,28 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<image src='/img/me_background.jpg' class='div167' style='z-index:-100;position: fixed;left: 0rpx;top:0px'></image>
+
+<view wx:if="{{hasUserInfo}}">
+  <view class='div167' style='text-align:center;margin-bottom:20rpx'>
+    <view>
+      <image src="{{userInfo.avatarUrl}}" mode="cover" class='avatar'></image>
+    </view>
+
+    <view style='margin-top:20rpx'>
+      <text>{{userInfo.nickName}}</text>
+    </view>
+
+  </view>
+
+  <van-cell icon="star" title="我的简历" is-link  url="/pages/resume/resume" link-type="navigateTo"/>
+
+</view>
+
+<view wx:else style='text-align:center;margin-bottom:20rpx' class="div167">
+  <view style='height:100rpx'></view>
+
+  <van-button open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="default"> 登录</van-button>
+
+</view>
+
+
+<van-cell icon="info" title="关于软件" is-link url="/pages/about/about" link-type="navigateTo" />
+

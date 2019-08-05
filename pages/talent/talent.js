@@ -5,6 +5,11 @@ Page({
    * Page initial data
    */
   data: {
+    swipers: [
+      { url: "https://www.baidu.com/img/bd_logo1.png" },
+      { url: "https://www.baidu.com/img/bd_logo1.png" },
+      { url: "https://www.baidu.com/img/bd_logo1.png" }
+    ]
 
   },
 

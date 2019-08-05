@@ -1,2 +1,37 @@
 <!--pages/talent/talent.wxml-->
 <text>pages/talent/talent.wxml</text>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{swipers}}" wx:for-index="index">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view></view>
+<van-row>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+</van-row>
+<van-row>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+</van-row>
+
+<view></view>
+
+<van-row>
+  <van-col span="12" class="col-center">
+    <van-button type="primary">写简历找工作</van-button>
+  </van-col>
+  <van-col span="12">
+    <van-button type="primary">免费发布职位</van-button>
+  </van-col>
+</van-row>
+
+<view></view>
+<view class="left-blue">名企专区</view>
+<view style="border-bottom:1rpx solid gray"></view>
