@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/talent/talent",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/activity/activity",
+    "pages/me/me",
+    "pages/zone/zone"
+  ],
+  "usingComponents": {
+    "van-button": "/component/vant/button/index",
+    "van-row": "/component/vant/row/index",
+    "van-col": "/component/vant/col/index",
+    "van-cell": "/component/vant/cell/index",
+    "van-cell-group": "/component/vant/cell-group/index",
+    "van-popup": "/component/vant/popup/index",
+    "van-loading": "/component/vant/loading/index",
+    "van-tab": "/component/vant/tab/index",
+    "van-tabs": "/component/vant/tabs/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/talent/talent",
+        "text": "人才库",
+        "iconPath": "/img/activity.png",
+        "selectedIconPath": "/img/activity.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "/img/activity.png",
+        "selectedIconPath": "/img/activity.png"
+      },
+      {
+        "pagePath": "pages/zone/zone",
+        "text": "专区",
+        "iconPath": "/img/activity.png",
+        "selectedIconPath": "/img/activity.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人中心",
+        "iconPath": "/img/activity.png",
+        "selectedIconPath": "/img/activity.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
